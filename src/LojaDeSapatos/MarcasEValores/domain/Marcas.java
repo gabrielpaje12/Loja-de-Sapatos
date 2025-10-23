@@ -26,19 +26,7 @@ public abstract class Marcas {
     }
 
 
-    public static double CalcularCredito(Client perfil, Nike compra) {
-        if (perfil.getSaldo() < compra.preco) {
-            System.out.println("Voce vai ficar devendo: " + CalcularResto(perfil, compra.preco));
-        } else {
-            System.out.println("Voce vai ficar com um credito de: " + CalcularResto(perfil, compra.preco));
-        }
-        return 0;
-    }
 
-    public static void Print(Client perfil, Nike compra) {
-
-        CalcularCredito(perfil, compra);
-    }
 
 
     public double getPreco() {

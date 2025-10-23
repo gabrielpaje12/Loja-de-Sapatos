@@ -27,15 +27,5 @@ public class test {
         calcularSaldo.CreditoException(cl,nike);
         mizuno.Print();
         calcularSaldo.CalcularNike(nike, cl);
-
-
-
-
-
-
-
-
     }
-
-
 }
